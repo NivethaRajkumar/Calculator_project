@@ -1,0 +1,48 @@
+h1 {
+  margin-left: 37%;
+}
+p {
+  margin-left: 45%;
+}
+
+.calculator {
+  width: 300px;
+  border: 5px solid #ccc;
+  color: #cccc;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 1;
+}
+
+button {
+  width: 20%;
+}
+
+button#zero{
+  width: 70%; 
+}
+button#double-zero{
+  width:5%;
+}
+
+
+button.number {
+  color: #000;
+}
+
+
+button.operator {
+  color: blue; 
+}
+
+
